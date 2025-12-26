@@ -32,7 +32,7 @@ For a system like **Instagram**, system design would consider:
 
 ---
 
-## Why System Design Matters
+## Why System Design Matters (which type of question it answeer)
 
 - Prevents systems from crashing as they grow
 - Improves efficiency and reduces costs
