@@ -1,4 +1,4 @@
-# Latency vs Throughput — Why Latency Changes at Different Throughput Levels
+# Latency vs Throughput — Why Latency Changes at Different Throughput Levels(when system is not scalable)
 
 ## 1. Core Idea (One Line)
 Latency is **not constant**.  
@@ -13,9 +13,16 @@ Every system has finite capacity:
 - Thread pools
 - Network bandwidth
 
-If:
-- arrival_rate ≤ service_rate → requests are processed immediately
-- arrival_rate > service_rate → requests queue up → latency increases
+when
+```nginx
+arrival_rate ≤ service_rate 
+```
+👉 requests are processed immediately
+
+```nginx
+arrival_rate > service_rate 
+```
+👉 requests queue up → latency increases
 
 ---
 

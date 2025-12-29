@@ -50,4 +50,4 @@ Example: A web server can process 1000 requests per second. That’s its through
 - Reduce packet loss
 - Optimize network design
 
-
+![System Scalability](./images/performace_vs_scalability.png)
