@@ -24,7 +24,7 @@ Request → Processing → Response
 
 ## Throughput
 
-**Throughput = number of requests processed per unit time**
+**Throughput = number of requests processed per unit time in server(Not a number of user trying to access)**
 
 Throughput refers to the **number of requests** a system can handle at the same time. It is often measured in **requests per second**, **transactions per second**, or **bits per second**.
 
